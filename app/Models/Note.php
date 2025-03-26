@@ -12,6 +12,10 @@ class Note extends Model
     protected $fillable = [
         'title',
         'content',
+<<<<<<< HEAD
         'subject'
+=======
+        'subject',
+>>>>>>> 0a266ac610b9e19484e347233c42fb3658a77814
     ];
 }

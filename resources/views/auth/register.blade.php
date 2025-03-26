@@ -1,4 +1,5 @@
 <form method="POST" action="{{ route('register') }}">
+<<<<<<< HEAD
 @csrf
 <input type="text" name="name" placeholder="Name" value="{{ old('name') }}">
 @error('name')
@@ -77,3 +78,11 @@
         color: #FF99CC;
     }
 </style>
+=======
+    @csrf
+    <input type="text" name="name" placeholder="Name">
+    <input type="email" name="email" placeholder="Email">
+    <input type="password" name="password" placeholder="Password">
+    <button type="submit">Register</button>
+</form>
+>>>>>>> 0a266ac610b9e19484e347233c42fb3658a77814

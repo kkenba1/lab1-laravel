@@ -25,7 +25,11 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2">
                 <div class="form-group">
+<<<<<<< HEAD
                     <strong>subjects:</strong> <br/>
+=======
+                    <strong>subject:</strong> <br/>
+>>>>>>> 0a266ac610b9e19484e347233c42fb3658a77814
                     {{ $note->subject }}
                 </div>
             </div>

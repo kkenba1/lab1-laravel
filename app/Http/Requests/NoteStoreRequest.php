@@ -24,7 +24,11 @@ class NoteStoreRequest extends FormRequest
         return [
             'title' => 'required|string|max:255',
             'content' => 'required|string',
+<<<<<<< HEAD
             'subject' => 'required|string'
+=======
+            'subject' => 'required|string',
+>>>>>>> 0a266ac610b9e19484e347233c42fb3658a77814
         ];
     }
 }

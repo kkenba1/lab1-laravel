@@ -27,4 +27,8 @@ class NoteUpdateRequest extends FormRequest
             'subject' => 'required|string',
         ];
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 0a266ac610b9e19484e347233c42fb3658a77814

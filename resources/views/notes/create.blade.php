@@ -47,7 +47,11 @@
                     name="subject"
                     id="inputcontent"
                     placeholder="subject"></textarea>
+<<<<<<< HEAD
                 @error('content')
+=======
+                @error('subject')
+>>>>>>> 0a266ac610b9e19484e347233c42fb3658a77814
                     <div class="form-text text-danger">{{ $message }}</div>
                 @enderror
             </div>

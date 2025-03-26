@@ -1,4 +1,5 @@
 <form method="POST" action="{{ route('login') }}">
+<<<<<<< HEAD
 @csrf
 <input type="email" name="email" placeholder="Email" value="{{ old('email') }}">
 <input type="password" name="password" placeholder="Password">
@@ -69,3 +70,10 @@
         color: #FF99CC;
     }
 </style>
+=======
+    @csrf
+    <input type="email" name="email" placeholder="Email">
+    <input type="password" name="password" placeholder="Password">
+    <button type="submit">Login</button>
+</form>
+>>>>>>> 0a266ac610b9e19484e347233c42fb3658a77814
